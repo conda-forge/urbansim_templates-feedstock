@@ -20,14 +20,14 @@ requirements:
     - python
     - pip
   run:
+    - python
     - choicemodels >=0.2
     - numpy >=1.14
     - orca >=1.4
     - pandas >=0.22
     - patsy >=0.4
-    - python
     - statsmodels >=0.8
-    - udst::urbansim >=3.1
+    - 'urbansim[channel=udst]'
 
 test:
   imports:
