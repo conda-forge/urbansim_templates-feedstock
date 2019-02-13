@@ -27,7 +27,6 @@ requirements:
     - pandas >=0.22
     - patsy >=0.4
     - statsmodels >=0.8
-    - 'urbansim[channel=udst]'
 
 test:
   imports:
