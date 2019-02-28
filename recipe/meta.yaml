@@ -1,6 +1,6 @@
 {% set name = "urbansim_templates" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "a2df420eb85fcfc8d37a4a027217c4254e2d946626ca6c84baf006f2b045acda" %}
+{% set version = "0.1.2" %}
+{% set sha256 = "f96d92057374df7ee67d33930801191a7d6f920ba6e60425c71f24b3e051a5d6" %}
 
 package:
   name: {{ name|lower }}
