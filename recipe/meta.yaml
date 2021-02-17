@@ -1,6 +1,6 @@
 {% set name = "urbansim_templates" %}
-{% set version = "0.1.3" %}
-{% set sha256 = "e080dc4a2a87ef18a03e551aae9c678ab8951bf6b9b04ab8f1e1b657e909fed6" %}
+{% set version = "0.1.4" %}
+{% set sha256 = "6672a687f144b544de7393f73ccaf796ed9fa8110348f8b942453b4ddc86c755" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Building blocks for simulation models'
+  summary: Building blocks for simulation models
   description: UrbanSim Templates is a Python library that provides building blocks for Orca-based simulation models
   doc_url: https://urbansim-templates.readthedocs.io/
   dev_url: https://github.com/udst/urbansim_templates
