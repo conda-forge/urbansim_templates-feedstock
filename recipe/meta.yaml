@@ -1,6 +1,6 @@
 {% set name = "urbansim_templates" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "6672a687f144b544de7393f73ccaf796ed9fa8110348f8b942453b4ddc86c755" %}
+{% set version = "0.3" %}
+{% set sha256 = "d043f2f55364f89a5994c0de25ccb1ff00f28e5c0a41452ac75b0853bb318066" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
