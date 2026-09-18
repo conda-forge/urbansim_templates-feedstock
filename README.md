@@ -3,11 +3,23 @@ About urbansim_templates-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/urbansim_templates-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/udst/urbansim_templates
+Home: https://github.com/UDST/urbansim_templates
 
 Package license: BSD-3-Clause
 
-Summary: Building blocks for simulation models
+Summary: Building blocks for Orca-based simulation models
+
+Development: https://github.com/UDST/urbansim_templates
+
+Documentation: https://udst.github.io/urbansim_templates/
+
+UrbanSim Templates provides building blocks for Orca-based simulation
+models: templates for common types of model steps (regression, binary
+logit, and multinomial logit) and data operations, plus ModelManager, an
+Orca extension that registers template-based steps, saves them to disk,
+and reloads them in later sessions. It's part of the Urban Data Science
+Toolkit (UDST).
+
 
 Current build status
 ====================
